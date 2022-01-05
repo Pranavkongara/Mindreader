@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andriod.gamers.mindreader">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_mind"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_mind"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activityone"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitytwo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitythree"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activityfour"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activityfive"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitysix"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Actvityfinal"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Feedback"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Instructions"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
